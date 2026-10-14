@@ -1,6 +1,6 @@
 # Engineering Case Studies
 
-A collection of architecture notes and engineering case studies from production web, mobile, SaaS and AI systems I have built and maintain.
+A collection of architecture notes and engineering case studies from web, mobile, SaaS and AI systems I have built.
 
 Production source code is kept private where projects contain client-owned or proprietary software. These case studies focus on **architecture, technical decisions, integrations, testing, deployment and engineering problems** rather than source code.
 
@@ -8,10 +8,12 @@ Production source code is kept private where projects contain client-owned or pr
 
 | Project | Domain | Stack |
 |---------|--------|-------|
+| [Kelime Ezberle](case-studies/kelime-ezberle.md) | English vocabulary app for Turkish speakers (App Store) | Vanilla JS · Capacitor 8 · RevenueCat · Firebase · Cloudflare Workers |
+| [AI Dungeon](case-studies/ai-dungeon-llm-game-master.md) | LLM Game Master for a mobile RPG (in development) | TypeScript · Cloudflare Workers + D1 · Unity · multi-provider LLM |
 | [BizSiz](case-studies/bizsiz.md) | Multi-tenant education management & coaching SaaS | PHP · MySQL · REST · Flutter |
 | [WatchSync AI](case-studies/watchsync-ai.md) | Multi-service luxury watch inventory & listing platform | Laravel · Next.js · FastAPI |
 | [SolarDocsAI](case-studies/solardocs-ai.md) | AI document automation for German solar companies | PHP · MySQL · Python · Stripe |
-| [SEY Silver](case-studies/sey-silver.md) | Production luxury jewelry e-commerce | PHP 8 · MariaDB · iyzico |
+| [SEY Silver](case-studies/sey-silver.md) | Silver jewelry e-commerce (soft launch) | PHP 8.2 · MariaDB · PayTR |
 | [Pestoptan](case-studies/pestoptan.md) | Wholesale catalog & quotation platform | PHP 8.2 · MySQL |
 
 ## Why this repository exists

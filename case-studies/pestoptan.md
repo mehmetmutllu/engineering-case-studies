@@ -2,7 +2,7 @@
 
 Production platform for a wholesale business (cleaning, hygiene and consumable products): customers browse a filtered catalog, build a quotation cart and request an offer; the sales team is notified automatically.
 
-*Source code: private (client-owned production system).*
+*Live site: [pestoptan.com.tr](https://pestoptan.com.tr) · Source code: private (client-owned production system).*
 
 ## Problem
 
