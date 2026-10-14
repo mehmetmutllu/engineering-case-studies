@@ -62,7 +62,7 @@ Content is the product, so it goes through its own measured pipeline:
 
 ## Release Process
 
-- **App Store:** from 13 September to 12 October 2026, versions 1.0 → 1.3.1 went live (including the premium release). 1.4.0, with accounts, is in review. The first submission was held under Guideline 2.1 (information needed) and passed after a written response.
+- **App Store:** eight versions shipped between 13 September and 12 October 2026 (1.0 → 1.4.0, including the premium and accounts releases); all are live. The first submission was held under Guideline 2.1 (information needed) and passed after a written response.
 - **Google Play:** closed testing. Production access requires the 12-testers × 14-days rule.
 - Release builds are produced by a whitelisting build script that copies only allowed files and checks version consistency.
 
