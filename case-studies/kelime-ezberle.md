@@ -22,7 +22,7 @@ Sole developer — product, architecture, content pipeline, testing and store re
 
 ## Monetization
 
-- **Premium subscription (IAP) via RevenueCat**, with monthly and yearly plans and a free trial on iOS. Premium removes ads and unlocks extra practice. Premium state is checked on the device through the RevenueCat SDK. A fake-store query-string mode (`?premium=aktif_aylik|deneme|odeme_sorunu|…`) lets every premium screen be tested in a browser without store accounts.
+- **Premium subscription (IAP) via RevenueCat**, with monthly and yearly plans and a free trial on iOS. Premium removes ads and unlocks extra practice. Premium state is checked on the device through the RevenueCat SDK. In development builds only, a fake-store mode lets every premium screen be tested in a browser without store accounts; release builds strip it.
 - **Refund service on Cloudflare Workers.** Deleting an account with an active Google Play subscription has to cancel it and refund the unused days. The Worker:
   1. verifies the Firebase ID token itself (RS256 against Google's public certificates: issuer, audience, expiry)
   2. looks up active subscriptions in RevenueCat

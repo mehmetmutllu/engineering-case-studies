@@ -94,7 +94,7 @@ To pick the default model I ran a blind, LLM-judged evaluation instead of trusti
 - Rate limits: per uid/route (60/min), per IP (600/min), tighter per-route caps, and a minimum interval of 1.5 s between moves. The request body is capped at 64 KB.
 - LLM call budget per turn (3, premium 4), and caps on world slots and new games per day.
 - No provider keys on the client. Hashed user IDs are sent as the provider's safety identifier.
-- **App Check is implemented** (off / monitor / enforce modes) but is **currently off**.
+- **App Check is implemented** with off / monitor / enforce modes, to be enforced before external testing.
 
 ## Testing
 

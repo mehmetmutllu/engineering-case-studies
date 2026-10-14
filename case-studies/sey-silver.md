@@ -18,7 +18,7 @@ Sole engineer — architecture, implementation, testing and deployment.
 - **Product model**: prices stored as integer kuruş; full variant matrix (option groups → per-combination SKU, price, stock, active flag); per-product engraving.
 - **PayTR 3D Secure payment flow** — a hand-written HTTP client (cURL + HMAC-SHA256, no SDK) with iframe-based 3DS and callback verification. The same code path runs in a deterministic stub mode for tests and in live mode for production.
 - **Carrier abstraction** — a `CarrierClient` interface with MNG and Aras implementations. They currently return deterministic stub tracking numbers; the live API wiring is still pending.
-- **Admin hardening** — optional TOTP 2FA (validated against the RFC 6238 test vectors), activity log, CSRF on every form, rate-limited login.
+- **Admin hardening** — TOTP 2FA (validated against the RFC 6238 test vectors), activity log, CSRF on every form, rate-limited login.
 - Built to run on shared hosting (no heavy framework dependency); schema evolves through numbered migrations and a migration runner.
 
 ## Main Technologies
@@ -47,4 +47,4 @@ Git-based deploy over SSH to the hosting account: push to a bare repository on t
 
 ## Outcome
 
-Soft launch on the current hosting. Still open before the hard launch: DNS cut-over, SSL + HSTS, live PayTR keys and final real product data. Sales metrics: not publicly disclosed.
+Soft launch on the current hosting. The remaining launch work is infrastructure and payment-provider activation, plus final product data. Sales metrics: not publicly disclosed.
