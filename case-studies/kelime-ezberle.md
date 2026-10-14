@@ -47,7 +47,7 @@ Test devices running Android 8–10 had WebViews around Chrome 80–86. Those ve
 ## Testing
 
 - **26 Playwright web suites** (the last full run: ~1,576 checks), covering lesson flow, energy system, premium gates, purchase flows, accounts, cloud sync merge, streaks, the refund Worker, distractors and the old-WebView rules. AdMob is replaced by an injected fake plugin, because ads cannot be tested in a browser.
-- **Native tests on the Android emulator** against the real APK (54 checks, including a premium section, plus a 66-check streak scenario suite).
+- **Native tests on the Android emulator** against the real APK (58 checks, including a premium section, plus a 66-check streak scenario suite).
 - iOS builds run on Codemagic. Each release bumps the iOS and Android version numbers independently.
 
 ## Content Quality Pipeline
