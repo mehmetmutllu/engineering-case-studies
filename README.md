@@ -13,7 +13,6 @@ Production source code is kept private where projects contain client-owned or pr
 | [SolarDocsAI](case-studies/solardocs-ai.md) | AI document automation for German solar companies | PHP · MySQL · Python · Stripe |
 | [SEY Silver](case-studies/sey-silver.md) | Production luxury jewelry e-commerce | PHP 8 · MariaDB · iyzico |
 | [Pestoptan](case-studies/pestoptan.md) | Wholesale catalog & quotation platform | PHP 8.2 · MySQL |
-| [AI Co-Founder Studio](case-studies/ai-co-founder-studio.md) | AI-assisted product planning system | React · TypeScript |
 
 ## Why this repository exists
 
